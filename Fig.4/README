@@ -1,4 +1,5 @@
 # This is the script allowing the back-calculation of the differences between R2,eff at two vCPMG frequencies through fitting the HARD data.
+# The library for the data fitting of HARD is too large to be included here.
 # In this example, the HARD data were acquired at 800MHz from methyl groups in Ube2g2. The differences between two theoretical R2,eff values were calculated between vCPMG frequencies of 50Hz and 1000Hz.   
 
 python3 back_calculation.py HARD_data > predicted_DR2eff &
